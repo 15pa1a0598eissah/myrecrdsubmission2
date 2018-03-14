@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+  <form>
+  <label for="vfname">First Name:</label>  
+  <input label="" id="vfname" type="text" ><br><br>
+  
+  <label for="vlname">Last Name:</label>
+  <input id="vlname"  type="text" ><br><br>
+  
+  <label for="user">User Name:</label>
+  <input id="user" type="text" ><br><br>
+  
+  <label for="pass">Pass Word:</label>
+  <input id="pass" type="password" ><hr>
+  
+  <label for="Gender">Gender:</label><br>
+  <label for="male">Male:</label>
+  <input type="radio" name="gender" id="male" required>
+  <label for="female">Female:</label>
+  <input type="radio" name="gender" id="female" value="female"><br><br>
+  
+  <label for="regd">Regd Number:</label>
+  <input id="regd" type="text"><br><br>
+  
+  <label for="dob">Date of Birth:</label>
+  <input id="dob" type="date"><br><hr>
+  
+  <label for="tarea">Address:</label><br>
+  <textarea id="tarea" rows="5" cols="40"> </textarea><br><br>
+  
+  <label for="pno">Phone Number:</label>
+  <input id="pno" type="text" ><br><br>
+  
+  <label for="zip">Zip Code:</label>
+  <input id="zip" type="text"><br><br>
+  
+  <label for="marks">Average Marks:</label>
+  <input id="marks" type="text"><br><br>
+  
+  <label for="email">Email:</label>
+  <input id="email" type="email"><hr>
+  
+  <input type="submit" value="Submit" onclick="Validation()" >
+  </form>
+  
+  
+  <script>
+  function Validation(){
+      var val = document.getElementById('vfname').value;//validate first name
+       if (val == "") {
+         alert("Name must be filled out")
+       }
+      else{
+         if(!val.match(/^[a-zA-Z]+$/)){   
+          alert('only alphabets are allowed')
+         }
+       }
+       
+       var val1 = document.getElementById('vlname').value; //validate last name
+         if (!val1 == "") {
+         if(!val1.match(/^[a-zA-Z]+$/)){
+           alert('only alphabets are allowed')
+         }
+       }
+       
+       var text = document.getElementById('user').value;//validate user name
+        if(text.length >= 10 && text.length<=5 ){

@@ -1,0 +1,42 @@
+body{
+	text-align: left;
+	font-family: "arial";
+}
+a{
+  color: rgb(32,107,105);
+}
+#a1{
+	color: white;
+  padding:10px;
+  padding-left: 200px;
+  background: rgb(234,30,99);
+}
+#a2{
+  background-color: #383838;
+  background-color: transparent;
+  margin: 0;
+}
+#a3{
+	color: white;
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background: rgb(68,68,68);
+}
+#a5{
+  padding: 10px;
+	padding-left: 200px;
+}
+#a6{
+  padding:10px;
+	padding-left: 200px;
+}
+#a4{
+  padding: 10px;
+   color: white;
+	text-align: center;
+    background-image: url("bg.jpg");
+    border-top: 5px solid rgb(234,30,99);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

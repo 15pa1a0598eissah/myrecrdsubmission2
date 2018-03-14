@@ -1,0 +1,51 @@
+body{
+  text-align: center;
+  font: 15px arial, sans-serif;
+  min-width: 700px;
+}
+.sec1{
+  background-color: #b56662;
+  color: white;
+  padding: 1px;
+}
+.nav li,a{
+  list-style-type:none;
+  color: white;
+  display: inline;
+  padding: 0px 3px;
+  text-decoration: none;
+}
+.heading{
+  text-align: center;
+  padding:10px;
+}
+.sec2{
+  background-image: url('stardust.png');
+  margin: 0;
+}
+.home{
+  color: #72b2a2;
+  padding-top: 1px;
+}
+.sec3{
+  background-image: url(crossword.png);
+  margin: 3% 33%;
+}
+.image{
+  background-image: url('featured-cake.png');
+  background-repeat: no-repeat;
+  padding-bottom: 145px;
+}
+#fea{
+  background-color:#333333;
+  text-align: left;
+  padding: 1px 10px;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+  color: white;
+}
+#ita{
+  font-style: italic;
+  text-transform: uppercase;
+  color: white;
+}

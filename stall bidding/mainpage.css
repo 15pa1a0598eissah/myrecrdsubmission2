@@ -1,0 +1,46 @@
+.top{
+  padding:2%;
+  margin: 0%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #566573;
+}
+.bottom{
+  text-align: center;
+  background-color: #000000;
+  padding: 10%;
+}
+.total{
+  background-color: #5f9ea0;
+}
+h3{
+  color: white;
+  font-size: 25px;
+}
+.logout{
+  background-color: #212f3d;
+  float: right;
+  height: 2%;
+  width: auto;
+  font-size: 15px;
+  padding: 2%;
+  margin:2%;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.lg{
+  text-decoration: none;
+  color: lime;
+  font-size: 20px;
+}
+.f{
+  color: cyan;
+  padding-right: 5%;
+}
+.g{
+  color: cyan;
+  padding-left: 5%;
+}

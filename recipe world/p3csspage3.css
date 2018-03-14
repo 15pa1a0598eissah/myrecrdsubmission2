@@ -1,0 +1,57 @@
+body{
+  background-image: url(stardust.png);
+  margin: 0;
+}
+nav a{
+ color: white; 
+ padding: 4px;
+ text-decoration: none;
+}
+nav li{
+  list-style-type: none;
+  display: inline;
+}
+.header{
+  text-align: center;
+  padding: 2px;
+  background-color:#b56662;
+}
+.crossbg{
+  background-image: url(crossword.png);
+  margin: 0 25% 0 25%;
+  padding: 0 2%;
+  padding-bottom: 1px;
+}
+.sec1{
+  border: 2px solid #b56662;
+  margin: 5px;
+  list-style-type: none;
+  background-color: white;
+}
+.cpywri8{
+  text-align: center;
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+}
+#middle{
+  text-align: center;
+  padding: 5px;
+}
+.names{
+  color: #72b2a2;
+}
+.sec1 img{
+  width: 25%;
+  height: auto;
+}
+.sec1 h3{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+.sec1 p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
